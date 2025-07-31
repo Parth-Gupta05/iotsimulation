@@ -1,11 +1,4 @@
-// vehicle count
-// alert
-// traffic flow
-// vehicle density
-// latitude 
-// longitude
-
-export const trafficData=[
+[
   {
     "name": "Place 1",
     "data": [

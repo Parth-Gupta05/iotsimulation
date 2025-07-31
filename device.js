@@ -26,7 +26,7 @@ ws.on('open', () => {
         rowIndex++;
 
         if (anyDataSent) {
-            setTimeout(sendData, 10000); // Wait 1 sec before sending next batch
+            setTimeout(sendData, 120000); // Wait 2 min before sending next batch
         } else {
             console.log("All data sent.");
             ws.close();
