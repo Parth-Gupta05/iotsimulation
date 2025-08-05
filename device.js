@@ -2,7 +2,7 @@
 import WebSocket from 'ws';
 import {trafficData} from './data.js';
 
-const ws = new WebSocket('ws://localhost:3000');
+const ws = new WebSocket('wss://iotsimulation-4.onrender.com');
 
 ws.on('open', () => {
     console.log('Connected to server');
